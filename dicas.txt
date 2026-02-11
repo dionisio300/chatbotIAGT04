@@ -13,3 +13,12 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin <URL>
 git push -u origin main
+
+Ativar o venv no windows: venv\Scripts\activate
+Ativar o venv no linux/mac: source venv/bin/activate
+
+salvar as bibliotecas instaladas: pip freeze > requirements.txt
+
+pip install flask
+pip install requests
+pip install dotenv
