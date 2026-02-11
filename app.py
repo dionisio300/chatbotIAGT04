@@ -308,7 +308,7 @@ def index():
 
 
 @app.route('/projeto2')
-def index():
+def projeto2():
     """Rota principal que carrega a interface do chatbot."""
     return render_template('projeto2.html')
 
