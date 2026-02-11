@@ -4,3 +4,12 @@ Ativar venv:
 - Linux/Mac: source venv/bin/activate
 
 Instalar dependências: pip install -r requirements.txt
+
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <URL>
+git push -u origin main
